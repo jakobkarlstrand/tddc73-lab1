@@ -1,0 +1,10 @@
+^C:\USERS\AXELN\ONEDRIVE\DOKUMENT\VSCODE\INTERAKTIONSPROGRAMMERING\FLUTTER_LAB1\FLUTTER_LAB1\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/axeln/OneDrive/Dokument/VScode/Interaktionsprogrammering/Flutter_lab1/flutter_lab1/windows -BC:/Users/axeln/OneDrive/Dokument/VScode/Interaktionsprogrammering/Flutter_lab1/flutter_lab1/build/windows --check-stamp-file C:/Users/axeln/OneDrive/Dokument/VScode/Interaktionsprogrammering/Flutter_lab1/flutter_lab1/build/windows/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

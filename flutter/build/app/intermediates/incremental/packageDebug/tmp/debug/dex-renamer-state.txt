@@ -1,0 +1,4 @@
+#Wed Nov 23 10:37:30 CET 2022
+base.0=C\:\\Users\\axeln\\OneDrive\\Dokument\\VScode\\Interaktionsprogrammering\\Flutter_lab1\\flutter_lab1\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
