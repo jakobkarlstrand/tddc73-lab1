@@ -3,7 +3,7 @@ import {Text, View} from 'react-native';
 
 function Navbar({title}) {
   if (!title) {
-    title = 'Example 1';
+    title = 'Lab 3';
   }
   return (
     <View style={styles.container}>
