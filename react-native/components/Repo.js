@@ -8,8 +8,6 @@ function Repo({repo}) {
   const [openModal, setOpenModal] = useState(false);
   const desc = description ? String(description) : 'No description available.';
 
-  console.log(stargazers_count);
-
   return (
     <TouchableOpacity
       style={{
